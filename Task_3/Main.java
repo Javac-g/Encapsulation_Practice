@@ -1,10 +1,10 @@
 package Task_3;
 
 public class Main {
-    public static void main(String... args){
+    public static void main(String... args) throws IllegalArgumentException{
 
 
-        System.out.println(Operations.trySquareRectangle(21,12));
+        System.out.println(Operations.trySquareRectangle(-21,12));
         System.out.println(Operations.trySquareRectangle(0,0));
         System.out.println(Operations.trySquareRectangle(0,12));
         System.out.println(Operations.trySquareRectangle(-1,12));
